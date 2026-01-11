@@ -1,0 +1,11 @@
+Our search engine currently supports basic word insertion, but the Prefix Search feature is missing. Your task is to implement the get_suggestions method in the AutocompleteEngine.
+
+Requirements:
+
+Prefix Matching: When a user types a string, find all words in the system that start with that prefix.
+
+Ranking: Each word has a weight (representing popularity). Your suggestions must be returned as a list of SearchResult objects, sorted by weight in descending order.
+
+Efficiency: You must utilize the existing TrieNode structure and the StorageManager to fetch the initial data.
+
+Integration: You must use the SearchResult class from models.py to wrap your findings.
